@@ -18,7 +18,7 @@
 </nav-->
 
 <div class="container">
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
@@ -31,11 +31,11 @@
       </div>
       <div id="navbar2" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Person Service</a></li>
-          <li><a href="#">Business Service</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="personservice">Person Service</a></li>
+          <li><a href="businessservice">Business Service</a></li>
+          <li><a href="contact">Contact Us</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -44,4 +44,10 @@
   </nav>
 </div>
 <!-- main content section -->
+<div class="container" style="margin-top:-1.5em">
+	<router-outlet></router-outlet>
+</div>
 <!-- footer section -->
+<div class="container">
+
+</div>
