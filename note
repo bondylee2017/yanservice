@@ -1,0 +1,5 @@
+1 .angular-cli.josn:
+	 "../node_modules/jquery/dist/jquery.min.js",
+	 "../node_modules/tether/dist/js/tether.min.js",
+	 "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+	 "../node_modules/popper/index.js"
