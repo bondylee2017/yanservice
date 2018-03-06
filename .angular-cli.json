@@ -23,6 +23,7 @@
        	"../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
       "scripts": [
+		"../node_modules/simplewebrtc/out/simplewebrtc-with-adapter.bundle.js"
 		],
       "environmentSource": "environments/environment.ts",
       "environments": {
