@@ -8,19 +8,19 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 // import component
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { PersonserviceComponent } from './personservice/personservice.component';
-import { BusinessserviceComponent } from './businessservice/businessservice.component';
-import { ContactComponent } from './contact/contact.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { MasterComponent } from './master/master.component';
-import { Slave1Component } from './slave1/slave1.component';
-import { Slave2Component } from './slave2/slave2.component';
-import { CommunicationComponent } from './communication/communication.component';
+import { HomeComponent } from './component/home/home.component';
+import { AboutComponent } from './component/about/about.component';
+import { PersonserviceComponent } from './component/personservice/personservice.component';
+import { BusinessserviceComponent } from './component/businessservice/businessservice.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
+import { MasterComponent } from './component/master/master.component';
+import { Slave1Component } from './component/slave1/slave1.component';
+import { Slave2Component } from './component/slave2/slave2.component';
+import { CommunicationComponent } from './component/communication/communication.component';
 
 // import services
-import { WebrtcService } from './core/services/webrtc.service';
+import { WebrtcService } from './services/webrtc.service';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'about', pathMatch: 'full' },

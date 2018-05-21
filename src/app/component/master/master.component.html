@@ -1,0 +1,27 @@
+<p>master works</p>
+<!-- li (click)="onConnect()">Connect</li-->
+<button (click)="onStartLocalVideo()">Start LocalVideo</button>
+<button (click)="onStopLocalVideo()">Stop LocalVideo</button>
+<button (click)="onCreateRoom()">Create Room</button>
+<br>
+<button>Connect to Server</button><!--Initialize local video, connect to Server-->
+<br>
+<form id="createRoomForm">
+	<!--Create Room-->
+    <input id="roomName"/>
+    <button type="submit">Create Room</button>
+</form>
+<br>
+
+
+<div id="localVideoContainer">
+	<video id="localVideo" style="height: 150px;"></video>
+	<meter id="localVolume" class="volume" min="-45" max="-20" high="-25" low="-40"></meter>
+</div>
+<br>
+<div id="remoteVideosContainer">Remote Videos Container</div>
+<br>
+<div id="localScreenContainer" class="videoContainer"></div>
+<br>
+<div id="remoteScreenContainer" class="videoContainer"></div>
+
